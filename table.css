@@ -1,0 +1,73 @@
+/*t1*/
+.t1{
+    border: 5px solid blue;
+    border-collapse: collapse;
+    text-align: left;
+}
+.th1,.td1{
+    border: 5px solid blue;
+}
+.t1{
+    width: 100%;
+}
+/*t1*/
+/*t2*/
+.t2{
+    border: 3px solid green ;
+    border-collapse: collapse;
+    width: 100%;
+}
+.th2{
+    border: 3px solid red;
+    color: aqua;
+    background-color: blue;
+}
+.td2{
+    border: 3px solid darkorange;
+    color: fuchsia;
+    background-color: navy;
+    position: relative;
+}
+/*t2*/
+.p1{
+    display: inline-block;
+    color: brown;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.p2{
+    display: inline-block;
+    color: deepskyblue;
+    position: absolute;
+    left: 9px;
+    top: 0;
+}
+.p3{
+    display: inline-block;
+    color: lawngreen;
+    position: absolute;
+    left: 17px;
+    top: 0;
+}
+.p4{
+    display: inline-block;
+    color: yellow;
+    position: absolute;
+    left: 26px;
+    top: 0;
+}
+.p5{
+    display: inline-block;
+    color: crimson;
+    position: absolute;
+    left: 32px;
+    top: 0;
+}
+.p6{
+    display: inline-block;
+    color: darksalmon;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}

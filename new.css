@@ -1,0 +1,12 @@
+.d1{
+    width: 39px;
+    height: 39px;
+    background-image: url(social.png);
+    border-radius: 50%;
+    background-position: 0 -39px;
+    background-repeat: no-repeat;
+    transition: 3s;
+}
+.d1:hover{
+    background-position: -391px -39px;
+}

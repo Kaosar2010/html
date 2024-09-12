@@ -1,0 +1,229 @@
+/*
+.d1{
+    
+    display: inline-block;
+    position: absolute;
+    left: 1000px;
+    background-color: blue;
+    margin: 100px auto;
+    position:  relative;
+   
+}
+.p1{
+    position: absolute;
+    left: 8px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+@keyframes text{
+    0%{
+        background-color: blue;
+        color: white;
+    }
+    25%{
+        background-color: brown;
+        font-size: 50px;
+    }
+}
+.p2{
+    display: inline-block;
+    position: absolute;
+    left: 18px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+@keyframes text{
+    0%{
+        background-color: blue;
+        color: white;
+    }
+    25%{
+        background-color: brown;
+        font-size: 50px;
+    }
+}
+.p3{
+    display: inline-block;
+    position: absolute;
+    left: 24px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p4{
+    display: inline-block;
+    position: absolute;
+    left: 32px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p5{
+    display: inline-block;
+    position: absolute;
+    left: 39px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p6{
+    display: inline-block;
+    position: absolute;
+    left: 44px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p7{
+    display: inline-block;
+    position: absolute;
+    left: 51px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p8{
+    display: inline-block;
+    position: absolute;
+    left: 58px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p9{
+    display: inline-block;
+    position: absolute;
+    left: 65px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p10{
+    display: inline-block;
+    position: absolute;
+    left: 75px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p11{
+    display: inline-block;
+    position: absolute;
+    left: 88px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p12{
+    display: inline-block;
+    position: absolute;
+    left: 95px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p13{
+    display: inline-block;
+    position: absolute;
+    left: 103px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p14{
+    display: inline-block;
+    position: absolute;
+    left: 107px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p15{
+    display: inline-block;
+    position: absolute;
+    left: 111px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p16{
+    display: inline-block;
+    position: absolute;
+    left: 121px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p17{
+    display: inline-block;
+    position: absolute;
+    left: 131px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p18{
+    display: inline-block;
+    position: absolute;
+    left: 138px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p19{
+    display: inline-block;
+    position: absolute;
+    left: 142px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p20{
+    display: inline-block;
+    position: absolute;
+    left: 146px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p21{
+    display: inline-block;
+    position: absolute;
+    left: 152px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+.p22{
+    display: inline-block;
+    position: absolute;
+    left: 159px;
+    animation:text 5s linear 1s infinite alternate running backwards ;
+}
+    */
+.p1{
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+    width: 900px;
+    animation: text 5s linear infinite alternate running backwards ;
+}
+@keyframes text{
+        0%{
+            background-color: blue;
+            font-size: 50px;
+        }
+        25%{
+            background-color: crimson;
+            font-size: 75px;
+            padding-right: 500px;
+            color: cyan;
+        }
+        50%{
+            background-color: chartreuse;
+            font-size: 100px;
+            padding-left: 500px;
+            color: gray ;
+        }
+        75%{
+            background-color: deepskyblue;
+            font-size: 125px;
+            color: hotpink;
+        }
+        100%{
+            background-color: magenta;
+            font-size: 150px;
+            padding-bottom: 500px;
+            padding-top: 500px;
+            color: red;
+        }
+    }
+.m1{
+    color: white;
+    font-size: 50px;
+    padding-top: 50px;
+    background-color: crimson;
+    height: 100px;
+    animation: marquee 5s linear infinite alternate running backwards ;
+}
+@keyframes marquee{
+    0%{
+        font-size: 50px;
+    }
+    25%{
+        font-size: 50px;
+    }
+    50%{
+        font-size: 50px;
+    }
+    75%{
+        font-size: 50px;
+    }
+    100%{
+        font-size: 100px;
+    }
+}
+

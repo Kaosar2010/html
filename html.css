@@ -1,0 +1,5 @@
+ul{
+    list-style-image: url(star.jpg) ;
+    list-style-position: inside;
+    margin-left: 500px;
+}
